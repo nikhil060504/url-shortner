@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Ensure only one page shows at a time */
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* .test-debug { */
+/* color: red; */
+/* background-color: yellow; */
+/* font-size: 20px; */
+/* } */
