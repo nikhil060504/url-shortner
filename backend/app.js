@@ -15,7 +15,7 @@ import cookieParser from "cookie-parser";
 // CORS configuration
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://url-shortner-1prr.vercel.app/"], // Vite dev server and other common ports
+    origin: ["http://localhost:5173", "https://url-shortner-1prr.vercel.app"], // Vite dev server and other common ports
     credentials: true,
   })
 );
