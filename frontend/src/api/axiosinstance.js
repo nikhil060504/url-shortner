@@ -2,8 +2,8 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-   baseURL: "https://url-shortner-qnp4.onrender.com",
-  timeout: 10000, // Increased timeout to 10 seconds
+  baseURL: import.meta.env.VITE_API_URL,  // ✅ dynamic via env
+  timeout: 10000,
   headers: {
     "Content-Type": "application/json",
   },
